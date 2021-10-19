@@ -34,7 +34,7 @@ public class SwaggerConfiguration {
 				.select()
 				.apis(RequestHandlerSelectors.basePackage("com.flight"))
 				.paths(PathSelectors.any())
-				.build().apiInfo(apiEndPointInfo())
+				.build().apiInfo(apiEndPointInfo());
 	//			.securitySchemes(Collections.singletonList(authenticationScheme))
          //       .securityContexts(List.of(securityContext()));
 		
